@@ -6,12 +6,12 @@ Remake developed in C++ from scratch using the SFML library.
 Download from https://github.com/agavinm/OutRun/releases  
   
 **Windows version**: [OutRun Windows x64](https://github.com/agavinm/OutRun/releases/download/v1.0/outrun-1.0-W64.zip)
-<pre><code>**1.** Extract all files from outrun-1.0-W64.zip
-**2.** Run Outrun.exe
+<pre><code>1. Extract all files from outrun-1.0-W64.zip
+2. Run Outrun.exe
 </code></pre>
 **Debian based version**: [OutRun Debian amd64](https://github.com/agavinm/OutRun/releases/download/v1.0/outrun-1.0-amd64.deb)
-<pre><code>**$~** sudo apt install ./outrun-1.0-amd64.deb
-**$~** outrun
+<pre><code>$~ sudo apt install ./outrun-1.0-amd64.deb
+$~ outrun
 </code></pre>
   
 ### Gameplay
@@ -35,7 +35,7 @@ In-game controls are those set in control options. By default the controls are:
 * Hard: With 15 simultaneous enemy vehicles and with a very tight time.  
   
 **Enemies AI:** (ARROWS)  
- Enable or disable the AI ​​of the enemies, whose difficulty will depend on the difficulty of the game.  
+ Enable or disable the AI of the enemies, whose difficulty will depend on the difficulty of the game.  
 * Sound menu: (C to enter and ENTER to confirm)  
 * Music volume (ARROWS).  
 * Volume of the effects (ARROWS).  
@@ -52,20 +52,20 @@ In-game controls are those set in control options. By default the controls are:
 <pre><code>Delete all extracted files
 </code></pre>
 **Debian based version** (OutRun Debian amd64):
-<pre><code>**$~** sudo apt remove outrun
+<pre><code>$~ sudo apt remove outrun
 </code></pre>  
   
 ### How to compile
 **Windows version**:
-<pre><code>**1.** Download SFML: https://www.sfml-dev.org/files/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit.zip
-**2.** Download MinGW-W64 GCC-7.3.0: https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/
-**3.** Copy all .hpp and .cpp files to src/ folder
-**$~** g++ -I\<SFMLinclude> -O3 -std=c++14 -mwindows -static -L\<SFMLlib> -o Outrun.exe src/* -lsfml-system -lsfml-window -lsfml-graphics -lsfml-audio
+<pre><code>1. Download SFML: https://www.sfml-dev.org/files/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit.zip
+2. Download MinGW-W64 GCC-7.3.0: https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/
+3. Copy all .hpp and .cpp files to src/ folder
+$~ g++ -I\<SFMLinclude> -O3 -std=c++14 -mwindows -static -L\<SFMLlib> -o Outrun.exe src/* -lsfml-system -lsfml-window -lsfml-graphics -lsfml-audio
 </code></pre>
 **Debian based version**:
-<pre><code>**1.** Copy all .hpp and .cpp files to src/ folder
-**$~** sudo apt install libsfml-dev
-**$~** g++ -O3 -std=c++14 src/* -o OutRun -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
+<pre><code>1. Copy all .hpp and .cpp files to src/ folder
+$~ sudo apt install libsfml-dev
+$~ g++ -O3 -std=c++14 src/* -o OutRun -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
 </code></pre>  
   
 ### Documentation
