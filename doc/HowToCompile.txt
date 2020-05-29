@@ -1,0 +1,7 @@
+1. Download SFML: https://www.sfml-dev.org/files/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit.zip
+
+2. Download MinGW-W64 GCC-7.3.0: https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/
+
+3. Copy all .hpp and .cpp files to src/ folder
+
+g++ -I<SFMLinclude> -O3 -std=c++14 -mwindows -static -L<SFMLlib> -o Outrun.exe src/* -lsfml-system -lsfml-window -lsfml-graphics -lsfml-audio
