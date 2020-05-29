@@ -5,11 +5,11 @@ Remake developed in C++ from scratch using the SFML library.
 ### How to install
 Download from https://github.com/agavinm/OutRun/releases  
   
-**Windows version**: [OutRun Windows x64](https://github.com/agavinm/OutRun/releases/download/v1.0/outrun-1.0-W64.zip)
+**Windows version**: [OutRun Windows x64](https://github.com/agavinm/OutRun/releases/download/v1.0-windows/outrun-1.0-W64.zip)
 <pre><code>1. Extract all files from outrun-1.0-W64.zip
 2. Run Outrun.exe
 </code></pre>
-**Debian based version**: [OutRun Debian amd64](https://github.com/agavinm/OutRun/releases/download/v1.0/outrun-1.0-amd64.deb)
+**Debian based version**: [OutRun Debian amd64](https://github.com/agavinm/OutRun/releases/download/v1.0-debian/outrun-1.0-amd64.deb)
 <pre><code>$~ sudo apt install ./outrun-1.0-amd64.deb
 $~ outrun
 </code></pre>
