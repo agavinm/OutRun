@@ -9,6 +9,7 @@ Download from https://github.com/agavinm/OutRun/releases
 <pre><code>1. Extract all files from outrun-1.0-W64.zip
 2. Run Outrun.exe
 </code></pre>
+
 **Debian based version**: [OutRun Debian amd64](https://github.com/agavinm/OutRun/releases/download/v1.0-debian/outrun-1.0-amd64.deb)
 <pre><code>$~ sudo apt install ./outrun-1.0-amd64.deb
 $~ outrun
@@ -51,6 +52,7 @@ In-game controls are those set in control options. By default the controls are:
 **Windows version** (OutRun Windows x64):
 <pre><code>Delete all extracted files
 </code></pre>
+
 **Debian based version** (OutRun Debian amd64):
 <pre><code>$~ sudo apt remove outrun
 </code></pre>  
@@ -62,6 +64,7 @@ In-game controls are those set in control options. By default the controls are:
 3. Copy all .hpp and .cpp files to src/ folder
 $~ g++ -I\<SFMLinclude> -O3 -std=c++14 -mwindows -static -L\<SFMLlib> -o Outrun.exe src/* -lsfml-system -lsfml-window -lsfml-graphics -lsfml-audio
 </code></pre>
+
 **Debian based version**:
 <pre><code>1. Copy all .hpp and .cpp files to src/ folder
 $~ sudo apt install libsfml-dev
